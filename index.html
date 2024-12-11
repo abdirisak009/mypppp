@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <!-- Navigation Bar -->
+  <nav class="text-white bg-[url('./images/banner-01.jpg')] bg-cover h-96 pb-12">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <!-- Logo -->
+     <img  class="w-40" src="images/logo2-04-04.png" alt="">
+      
+      <!-- Menu -->
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="#" class="hover:text-gray-300">Home</a></li>
+        <li><a href="#" class="hover:text-gray-300">About</a></li>
+        <li><a href="#" class="hover:text-gray-300">Services</a></li>
+        <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+      </ul>
+    <a href="#" class="bg-[#FF7800] px-5 py-2 rounded-full hover:bg-[#CC8E5A]">Get Started</a>
+     </div>
+
+     <div class="container mx-auto mt-12 text-4xl font-bold">
+        <h3>Eat a <span class="text-[#FF7800]">Health</span> Diet<br> To Help Your Body<br> Stay Fit</h3>
+        <p class="text-xl font-thin pt-3">Lorem ipsum dolor sit, amet consectetur <br>adipisicing elit.</p>
+        <a href="#" class="bg-[#FF7800] px-3 py-2 text-xl mt-2 rounded-full" >Get Started</a>
+     </div>
+     </nav>
+
+     <div class="container mx-auto grid grid-cols-3 gap-3 mt-5">
+        <div class="shadow-lg p-6 flex flex-col items-center justify-center hover:scale-90 transition" data-aos="fade-up">
+            <ion-icon class="text-center bg-[#FF7800] p-3 text-xl text-white mb-2" name="fast-food-outline"></ion-icon>
+            <h3 class="text-xl font-bold text-center" >Nutritionist Expert</h3>
+            <p class="text-10 text-thin text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</p>
+        </div>
+        <div class="shadow-lg p-6 flex flex-col items-center justify-center hover:scale-90 transition" data-aos="fade-right">
+            <ion-icon class="text-center bg-[#76A713] p-3 text-xl text-white mb-2" name="alarm-outline"></ion-icon>
+            <h3 class="text-xl font-bold text-center">To Help Your Body</h3>
+            <p class="text-10 text-thin text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</p>
+        </div>
+
+        <div class="shadow-lg p-6 flex flex-col items-center justify-center hover:scale-90 transition">
+            <ion-icon class="text-center bg-[#FF7800] p-3 text-xl text-white mb-2" name="fast-food-outline"></ion-icon>
+            <h3 class="text-xl font-bold text-center">Nutritionist Expert</h3>
+            <p class="text-10 text-thin text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</p>
+        </div>
+
+       
+
+        
+        
+     </div>
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+        AOS.init();
+      </script>
+</body>
+</html>
